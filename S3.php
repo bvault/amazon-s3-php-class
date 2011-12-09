@@ -1,4 +1,9 @@
 <?php
+
+namespace S3;
+
+use \Exception as Exception;
+
 /**
 * $Id$
 *
