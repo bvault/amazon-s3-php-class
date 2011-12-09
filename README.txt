@@ -1,3 +1,5 @@
+Forked from https://github.com/tpyo/amazon-s3-php-class.git
+
 AMAZON S3 PHP CLASS
 
 
