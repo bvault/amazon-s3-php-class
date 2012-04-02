@@ -2,6 +2,8 @@
 
 namespace S3;
 
+use \Exception as Exception;
+
 class S3Exception extends Exception {
 	function __construct($message, $file, $line, $code = 0)
 	{

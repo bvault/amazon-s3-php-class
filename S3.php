@@ -3,6 +3,7 @@
 namespace S3;
 
 use \Exception as Exception;
+use \S3\S3Exception;
 
 /**
 * $Id$
@@ -59,7 +60,7 @@ class S3
 
 	public static $useSSL = false;
 	public static $useSSLValidation = true;
-	public static $useExceptions = false;
+	public static $useExceptions = true;
 
 	// SSL CURL SSL options - only needed if you are experiencing problems with your OpenSSL configuration
 	public static $sslKey = null;
